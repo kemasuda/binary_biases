@@ -228,7 +228,7 @@ quantities in Equation~\ref{eq:occ_rate_simple} are biased:
 %    
     \item The number of detected planets, $N_{\det}$, is actually the
       number of detected planets that {\it appear} to have size $r$,
-      orbiting stars that {\it appear} to have mass $M$.  Whenever the
+      orbiting stars that {\it appear} to have mass $M$ \added{and radius $R$}.  Whenever the
       planet-hosting star is part of a binary,
 %    
     \begin{itemize}
@@ -541,7 +541,7 @@ where $\mu$ is given by
 \end{equation}
 Equation~\ref{eq:N_binaries} replaces ${\mu N_\star(r\a)/(1+\mu)}$
 in Equations~\ref{eq:n1} and~\ref{eq:n2}.
-The whole equation is then integrated to give the number of
+The whole equation is then integrated \added{over $q$} to give the number of
 detected planets.
 
 \item The apparent radius of a planet in a binary system now depends
@@ -1112,7 +1112,7 @@ by~\citet{furlan_kepler_2017}. Based on this information,
 the {\it Kepler} planets in binaries. They found that planet radii are
 generally underestimated by a factor $r/r\a = 1.17$ if all planets
 orbit primaries, and $r/r\a = 1.65$ if detected planets are equally
-likely to orbit primaries and singles.  Our formalism provides a way
+likely to orbit primaries and \deleted{singles}\added{secondaries}.  Our formalism provides a way
 to assess the relative probabilities that a detected planet orbits the
 primary or secondary star.  The calculations presented in
 \S\,\ref{subsec:whichstar} suggest that in almost all cases the planet
